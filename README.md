@@ -1,4 +1,4 @@
 # rsschool-cv
 # Hello World
-My first repository
+*My first repository*
 I love 🗺️
