@@ -5,9 +5,9 @@
 ## **Junior Frontend Developer**
 
 ## **Contacts**
-- **Phone:** +375 .. ...-..-..
-- **Email:** 
-- **GitHub:** [Maryna Perko]()
+- **Phone:** +375 \** \***-\**-\**
+- **Email:** margolav1@rambler.ru
+- **GitHub:** [MarynaPe]()
 
 ## **About Myself**
 I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
@@ -47,3 +47,4 @@ console.log(multiply(2, 3)); //6
 - ENGLISH (Elementary)
 - Lithuanian (Basic)
 
+![image]()
