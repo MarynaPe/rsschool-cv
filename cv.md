@@ -7,7 +7,7 @@
 ## **Contacts**
 - **Phone:** +375 \** \***-\**-\**
 - **Email:** margolav1@rambler.ru
-- **GitHub:** [MarynaPe]()
+- **GitHub:** [MarynaPe](https://github.com/MarynaPe)
 
 ## **About Myself**
 I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
@@ -36,7 +36,7 @@ I have good interpersonal skills, am an excellent team worker and very willing t
 - JavaScript Manual on learnjavascript.ru
 
 ## **Code Example**
-```
+```javascript
 function multiply(a, b) {
          return a * b;
 }
@@ -47,4 +47,7 @@ console.log(multiply(2, 3)); //6
 - ENGLISH (Elementary)
 - Lithuanian (Basic)
 
-![image]()
+
+<img src="logo-rsschool3.png" alt="logo" width="200">
+
+<!-- [<img src="logo-rsschool3.png" alt="logo" width="200">](logo-rsschool3.png) -->
