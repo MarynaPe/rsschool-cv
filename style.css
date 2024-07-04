@@ -1,0 +1,374 @@
+:root {
+   --font-color: #505050;
+   --background-light-ping: #ffd6d2;
+}
+
+body {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: var(--font-color);
+}
+
+a {
+   cursor: pointer;
+   color: var(--font-color);
+}
+
+a:hover {
+   color: red;
+}
+
+.wrapper {
+   width: 100%;
+   max-width: 1020px;
+   background-color: #ffffff;
+   margin: 20px auto;
+   box-shadow: 10px 10px 30px -2px rgba(0, 0, 0, 0.23);
+   overflow: hidden;
+}
+
+.header {
+   background-color: var(--background-light-ping);
+   margin-bottom: 30px;
+}
+
+.header__wrapper {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-left: -20px;
+   text-align: center;
+}
+
+.header__photo {
+   position: relative;
+}
+
+.header__photo_black {
+   margin-left: -5px;
+   background-color: #000000;
+   width: 440px;
+   height: 300px;
+   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 11% 48%, 0% 0%);
+}
+
+.header__photo_white {
+   position: absolute;
+   top: 0;
+   left: 10px;
+   z-index: 9;
+   background-color: #ffffff;
+   width: 400px;
+   height: 300px;
+   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 11% 48%, 0% 0%);
+}
+
+.header__photo_img {
+   position: absolute;
+   top: 0;
+   left: 30px;
+   z-index: 10;
+   width: 350px;
+   height: 300px;
+   object-fit: cover;
+   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 11% 48%, 0% 0%);
+}
+
+/* .header__info {}
+ */
+
+.info__name {
+   text-transform: uppercase;
+   font-size: 40px;
+   font-weight: 700;
+   letter-spacing: 6px;
+   margin-bottom: 20px;
+}
+
+.info__profession {
+   font-size: 25px;
+   margin-bottom: 50px;
+}
+
+.info__logo-link {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.info__logo-link_item_img {
+   width: 50px;
+   height: 50px;
+}
+
+.main {
+   margin-bottom: 60px;
+   width: 100%;
+}
+
+.main__two-columns {
+   display: flex;
+   margin: 0 10px;
+}
+
+.main__section_left {
+   width: 35%;
+   padding: 0 30px;
+   background-color: #f1eaee;
+}
+
+.section__left_info {
+   background-color: var(--background-light-ping);
+   border: 3px solid black;
+   padding: 10px;
+   margin-bottom: 40px;
+}
+
+.section__left_info_title {
+   font-size: 18px;
+   width: 150px;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: #ffffff;
+   background-color: black;
+   transform: translate(50px, -90%);
+   padding: 5px;
+}
+
+.section__left_info_list {
+   margin-top: -10px;
+}
+
+.info_list_item {
+   line-height: 1.5;
+}
+
+
+.info_list_item_img {
+   width: 30px;
+   height: 30px;
+   padding-right: 10px;
+   vertical-align: middle;
+   object-fit: contain;
+}
+
+.info_list_item_text {
+   font-size: 18px;
+   vertical-align: middle;
+}
+
+.info_list_items_skills,
+.info_list_items_languages,
+.info_list_items_projects {
+   padding-left: 20px;
+}
+
+.info_list_item_skills,
+.info_list_item_languages,
+.info_list_item_projects {
+   list-style-type: "\1F393";
+   padding-left: 10px;
+}
+
+.info_list_item_languages_title,
+.info_list_item_projects_title {
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+.main__section_right {
+   width: 65%;
+   padding: 0 30px;
+}
+
+.section__right_info {
+   margin-bottom: 20px;
+}
+
+.section__right_info_title {
+   display: flex;
+   margin-bottom: 15px;
+   align-items: center;
+}
+
+/* .section__right_info_title_img {}
+*/
+
+.section__right_info_title_text {
+   flex: 1;
+   font-size: 20px;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: var(--font-color);
+   border-bottom: 2px solid var(--font-color);
+   padding: 6px;
+}
+
+.section__right_info_text_wrapper {
+   margin-bottom: 10px;
+}
+
+.section__right_info_text {
+   font-size: 18px;
+   line-height: 1.2;
+   padding-left: 15px;
+   margin-bottom: 5px;
+}
+
+.section__right_info_text_education::before,
+.section__right_info_text_courses::before {
+   content: "\1F393";
+   padding-right: 7px;
+}
+
+.info_list_item_education {
+   list-style-type: square;
+   margin-left: 65px;
+   font-size: 18px;
+
+}
+
+.section__right_info_text_courses {
+   font-size: 18px;
+   padding-left: 20px;
+}
+
+
+.code_example {
+   margin-top: 20px;
+   padding: 30px;
+   font-family: monospace;
+   font-size: 18px;
+   background-color: #f5f5f5;
+   border: 2px solid;
+
+}
+
+.code_example_title {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   line-height: 1.5;
+   background: #f5f5f5;
+   font-size: 18px;
+   color: #282A36;
+   font-weight: 400;
+}
+
+
+
+.footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 40px;
+   font-size: 14px;
+   background-color: #505050;
+   margin-bottom: 20px;
+}
+
+.my_github {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+
+}
+
+.my_github_text {
+   color: white;
+
+}
+
+/* Media */
+@media screen and (max-width: 601px) {
+
+   .wrapper {
+      width: 500px;
+      background-color: #ffffff;
+      margin: 0 auto;
+      box-shadow: 10px 10px 30px -2px rgba(0, 0, 0, 0.23);
+   }
+
+   .header {
+      margin-bottom: 20px;
+   }
+
+   .header__wrapper {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      justify-content: flex-start;
+      margin-left: 15px;
+      gap: 50px;
+   }
+
+   .header__photo {
+      position: relative;
+   }
+
+   .header__photo_black {
+      width: 150px;
+      height: 150px;
+      margin-left: 0px;
+   }
+
+   .header__photo_white {
+      width: 200px;
+      height: 150px;
+      margin-left: -2px;
+   }
+
+   .header__photo_img {
+      width: 175px;
+      height: 150px;
+      margin-left: -10px;
+   }
+
+   .header__info {
+      margin-left: 10px;
+   }
+
+
+   .info__name {
+      font-size: 25px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+   }
+
+   .info__profession {
+      font-size: 16px;
+      margin-bottom: 40px;
+   }
+
+   .info__logo-link_item_img {
+      width: 30px;
+      height: 30px;
+   }
+
+   .main__section_left {
+      padding: 5px 4px;
+   }
+
+   .section__left_info {
+      width: 160px;
+      margin-bottom: 20px;
+   }
+
+   .section__left_info_title {
+      width: 140px;
+      font-size: 15px;
+      transform: translate(-3px, -90%);
+   }
+
+   .info_list_item_languages_title,
+   .info_list_item_projects_title,
+   .info_list_item_text {
+      font-size: 15px;
+   }
+
+   .section__right {
+      padding-left: 15px;
+      padding-right: 5px;
+   }
+
+
+}
